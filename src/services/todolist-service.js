@@ -1,5 +1,10 @@
+
 export class TodolistServices {
     todolist = ["Eat", "Sleep", "Code"];
+
+    sum = (a, b) => {
+        return a + b;
+    }
 
     getJsonTodolist() {
         return JSON.stringify({

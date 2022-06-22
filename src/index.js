@@ -1,5 +1,5 @@
 import http from 'http';
-import {TodolistServices} from './todolist-service.mjs';
+import {TodolistServices} from './services/todolist-service.js';
 
 const service = new TodolistServices();
 const server = http.createServer((req, res) => {
